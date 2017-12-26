@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:wordclock-rescue
 LIBS:power
 LIBS:device
 LIBS:switches
@@ -161,7 +160,7 @@ F 1 "Jack-DC" H 5200 5675 50  0000 C CNN
 F 2 "Connectors:BARREL_JACK" H 5250 5810 50  0001 C CNN
 F 3 "" H 5250 5810 50  0001 C CNN
 	1    5200 5850
-	1    0    0    1   
+	1    0    0    -1  
 $EndComp
 Text Label 1050 3900 2    60   ~ 0
 RX
@@ -681,14 +680,12 @@ Connection ~ 4050 6550
 Wire Wire Line
 	5550 5850 5500 5850
 Wire Wire Line
-	5550 5700 5550 5850
-Wire Wire Line
 	5500 5750 5600 5750
 Connection ~ 5550 5750
 Wire Wire Line
 	5500 5950 5600 5950
 Wire Wire Line
-	5550 5950 5550 6000
+	5550 5850 5550 6000
 Connection ~ 5550 5950
 Wire Wire Line
 	5900 5750 5950 5750
@@ -996,4 +993,6 @@ Wire Wire Line
 	3000 4200 3850 4200
 Wire Wire Line
 	3800 4300 3850 4300
+Wire Wire Line
+	5550 5750 5550 5700
 $EndSCHEMATC
